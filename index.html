@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Kilmer Dantas | Cirurgião-Dentista • Método The Blend • João Pessoa - PB</title>
+<meta name="description" content="Dr. Kilmer Dantas • Cirurgião-Dentista CRO-PB 11.383 • Criador do Método The Blend • +500 facetas com naturalidade e precisão • João Pessoa - PB. Agende sua avaliação.">
+<meta name="keywords" content="dentista João Pessoa, facetas, lentes de contato dental, método The Blend, Dr Kilmer Dantas, CRO 11383">
+<meta property="og:title" content="Dr. Kilmer Dantas | Método The Blend">
+<meta property="og:description" content="+500 facetas com naturalidade e precisão. Descubra sua melhor versão.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: {
+        serif: ['"Playfair Display"', '"Cormorant Garamond"', 'serif'],
+        sans: ['"DM Sans"', 'sans-serif'],
+        display: ['"Cormorant Garamond"', 'serif'],
+      },
+      colors: {
+        cream: '#FDFBF7',
+        sand: '#F5EFE6',
+        gold: '#C5A880',
+        'gold-dark': '#A68B5B',
+        'gold-light': '#E8DCC6',
+        charcoal: '#0F2B2C',
+        'charcoal-light': '#1A3A3B',
+        stone: '#8A8578',
+      },
+      animation: {
+        'fade-in': 'fadeIn 0.8s ease-out',
+        'slide-up': 'slideUp 0.8s ease-out',
+        'float': 'float 6s ease-in-out infinite',
+      }
+    }
+  }
+}
+</script>
+<style>
+  * { scroll-behavior: smooth; }
+  body { font-family: 'DM Sans', sans-serif; background: #FDFBF7; color: #0F2B2C; }
+  .text-balance { text-wrap: balance; }
+  .glass { backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
+  @keyframes fadeIn { from { opacity:0 } to { opacity:1 } }
+  @keyframes slideUp { from { opacity:0; transform: translateY(20px)} to { opacity:1; transform: translateY(0)} }
+  @keyframes float { 0%,100% { transform: translateY(0)} 50% { transform: translateY(-8px)} }
+  .reveal { opacity:0; transform: translateY(24px); transition: all 0.7s cubic-bezier(0.16,1,0.3,1); }
+  .reveal.active { opacity:1; transform: translateY(0); }
+  .img-zoom { transition: transform 0.6s cubic-bezier(0.16,1,0.3,1); }
+  .group:hover .img-zoom { transform: scale(1.06); }
+  /* custom scrollbar */
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-thumb { background: #C5A880; border-radius: 8px; }
+  ::-webkit-scrollbar-track { background: #F5EFE6; }
+</style>
+<script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="antialiased selection:bg-gold/30 selection:text-charcoal">
+
+<!-- HEADER -->
+<header id="header" class="fixed top-0 inset-x-0 z-50 transition-all duration-300 bg-cream/80 glass border-b border-transparent">
+  <div class="max-w-[1280px] mx-auto px-6 lg:px-8">
+    <div class="flex items-center justify-between h-[72px] lg:h-[84px]">
+      <a href="#" class="flex items-center gap-3">
+        <img src="https://instagram.fbau3-1.fna.fbcdn.net/v/t51.82787-19/625542348_18093736619317178_681289511083069148_n.jpg?_nc_cat=103&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=W7DSxXkyMBAQ7kNvwGh4gWk&_nc_oc=AdpnDPAQITWwn_0xND5OOJWegO4wrQphB741B_9f5gk9T-Eo0_MFEfPcnwY7UIYKA0gxsoMRpUBk6QjLRbS6gAq0&_nc_zt=24&_nc_ht=instagram.fbau3-1.fna&_nc_gid=V9didziS3_oWWC1wOaVmNA&_nc_ss=7b6a8&oh=00_AQEJCsyck3_OebYtPeCLQSn_u8CboQIt1jiID31UVOkjNw&oe=6A978750" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" alt="Dr. Kilmer Dantas" class="w-10 h-10 rounded-xl object-cover border border-charcoal/10 shadow-sm">
+        <div class="w-10 h-10 rounded-xl bg-charcoal hidden items-center justify-center text-cream font-serif font-bold text-lg tracking-widest">KD</div>
+        <div class="leading-tight">
+          <p class="font-serif font-semibold text-[17px] tracking-[-0.02em] text-charcoal">Dr. Kilmer Dantas</p>
+          <p class="text-[11px] tracking-[0.14em] uppercase font-medium text-stone -mt-0.5">Cirurgião-Dentista • CRO-PB 11.383</p>
+        </div>
+      </a>
+      <nav class="hidden lg:flex items-center gap-8 text-[13px] font-medium tracking-wide">
+        <a href="#metodo" class="hover:text-gold-dark transition">Método The Blend</a>
+        <a href="#resultados" class="hover:text-gold-dark transition">Resultados</a>
+        <a href="#sobre" class="hover:text-gold-dark transition">Sobre</a>
+        <a href="#contato" class="hover:text-gold-dark transition">Contato</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="https://instagram.com/dr.kilmerdantas" target="_blank" class="hidden sm:flex w-9 h-9 rounded-full border border-charcoal/15 items-center justify-center hover:border-gold hover:bg-gold/10 transition">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://wa.me/5583999999999?text=Ol%C3%A1%20Dr.%20Kilmer!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20facetas%20-%20M%C3%A9todo%20The%20Blend." target="_blank" class="hidden sm:inline-flex items-center gap-2 bg-charcoal text-cream px-5 py-[10px] rounded-full text-[13px] font-semibold tracking-wide hover:bg-charcoal-light transition">
+          <span>Agendar avaliação</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+        <button id="menuBtn" class="lg:hidden w-10 h-10 rounded-full bg-charcoal text-cream flex items-center justify-center">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Mobile menu -->
+  <div id="mobileMenu" class="hidden lg:hidden border-t border-charcoal/10 bg-cream">
+    <div class="px-6 py-6 flex flex-col gap-5 text-sm font-medium">
+      <a href="#metodo" class="mobile-link">Método The Blend</a>
+      <a href="#resultados" class="mobile-link">Resultados</a>
+      <a href="#sobre" class="mobile-link">Sobre</a>
+      <a href="#contato" class="mobile-link">Contato</a>
+      <a href="https://wa.me/5583999999999?text=Ol%C3%A1%20Dr.%20Kilmer!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" class="mt-2 inline-flex justify-center items-center gap-2 bg-charcoal text-cream px-6 py-3 rounded-full font-semibold">Agendar no WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="relative pt-[88px] lg:pt-[112px] overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-b from-sand to-cream"></div>
+  <div class="absolute top-0 right-0 w-[60%] h-[70%] bg-gradient-to-bl from-gold-light/40 to-transparent rounded-bl-[120px] pointer-events-none"></div>
+  <div class="relative max-w-[1280px] mx-auto px-6 lg:px-8">
+    <div class="grid lg:grid-cols-12 gap-10 lg:gap-6 items-center py-8 lg:py-12">
+      <!-- Left -->
+      <div class="lg:col-span-6 xl:col-span-6">
+        <div class="inline-flex items-center gap-2 bg-white border border-gold/20 rounded-full px-3 py-1.5 shadow-sm mb-6 reveal">
+          <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span>
+          <span class="text-[11px] font-semibold tracking-[0.12em] uppercase text-charcoal">Agenda aberta • João Pessoa - PB</span>
+          <span class="hidden sm:inline text-stone text-xs">•</span>
+          <span class="hidden sm:inline text-xs text-stone font-medium">CRO-PB 11.383</span>
+        </div>
+        <h1 class="font-serif text-[38px] sm:text-[48px] lg:text-[56px] xl:text-[62px] leading-[0.9] tracking-[-0.03em] text-charcoal reveal" style="transition-delay:80ms">
+          Sorriso com<br>
+          <span class="italic font-light text-gold-dark">naturalidade</span><br>
+          e precisão<span class="text-gold">.</span>
+        </h1>
+        <p class="mt-5 text-[16px] lg:text-[18px] leading-relaxed text-stone max-w-[560px] text-balance reveal" style="transition-delay:160ms">
+          Criador do <strong class="text-charcoal font-semibold">Método The Blend</strong> — técnica exclusiva que une arte, ciência e tecnologia para <strong class="text-charcoal font-semibold">+500 facetas</strong> que parecem ter nascido com você.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3 reveal" style="transition-delay:220ms">
+          <a href="https://wa.me/5583999999999?text=Ol%C3%A1%20Dr.%20Kilmer!%20Quero%20descobrir%20minha%20melhor%20vers%C3%A3o%20com%20o%20M%C3%A9todo%20The%20Blend." target="_blank" class="inline-flex items-center gap-3 bg-charcoal text-cream px-7 py-3.5 rounded-full font-semibold text-sm hover:bg-black transition shadow-lg shadow-charcoal/20">
+            Descubra sua melhor versão
+            <span class="w-8 h-8 rounded-full bg-white/15 flex items-center justify-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a href="#resultados" class="inline-flex items-center gap-2 bg-white border border-charcoal/10 px-7 py-3.5 rounded-full font-semibold text-sm hover:border-gold/40 hover:bg-sand transition">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="currentColor" stroke="none"/></svg>
+            Ver transformações
+          </a>
+        </div>
+        <!-- Social proof -->
+        <div class="mt-8 flex items-center gap-6 reveal" style="transition-delay:280ms">
+          <div class="flex -space-x-2">
+            <img src="https://i.pravatar.cc/100?img=32" class="w-9 h-9 rounded-full border-2 border-cream object-cover" alt="">
+            <img src="https://i.pravatar.cc/100?img=14" class="w-9 h-9 rounded-full border-2 border-cream object-cover" alt="">
+            <img src="https://i.pravatar.cc/100?img=26" class="w-9 h-9 rounded-full border-2 border-cream object-cover" alt="">
+            <div class="w-9 h-9 rounded-full bg-gold border-2 border-cream flex items-center justify-center text-[11px] font-bold text-charcoal">+500</div>
+          </div>
+          <div class="text-sm leading-tight">
+            <div class="flex items-center gap-1 text-amber-500">
+              <span>★★★★★</span><span class="text-charcoal font-semibold ml-1">5.0</span><span class="text-stone font-normal">(127 avaliações)</span>
+            </div>
+            <p class="text-stone text-xs">Pacientes transformados • <a href="https://instagram.com/dr.kilmerdantas" target="_blank" class="underline decoration-gold/40 underline-offset-4 hover:text-charcoal">@dr.kilmerdantas</a></p>
+          </div>
+        </div>
+        <!-- Stats bar -->
+        <div class="mt-8 grid grid-cols-3 gap-4 max-w-[480px] border-t border-charcoal/10 pt-6 reveal" style="transition-delay:320ms">
+          <div>
+            <p class="font-serif text-2xl font-semibold tracking-tight text-charcoal">+500</p>
+            <p class="text-[11px] tracking-[0.1em] uppercase font-semibold text-stone">Facetas realizadas</p>
+          </div>
+          <div class="border-l border-charcoal/10 pl-4">
+            <p class="font-serif text-2xl font-semibold tracking-tight text-charcoal">2.500+</p>
+            <p class="text-[11px] tracking-[0.1em] uppercase font-semibold text-stone">Seguidores</p>
+          </div>
+          <div class="border-l border-charcoal/10 pl-4">
+            <p class="font-serif text-2xl font-semibold tracking-tight text-charcoal">50+</p>
+            <p class="text-[11px] tracking-[0.1em] uppercase font-semibold text-stone">Casos publicados</p>
+          </div>
+        </div>
+      </div>
+      <!-- Right -->
+      <div class="lg:col-span-6 xl:col-span-6 relative lg:pl-6 reveal" style="transition-delay:200ms">
+        <div class="relative mx-auto max-w-[520px]">
+          <!-- Glow -->
+          <div class="absolute -inset-6 bg-gradient-to-br from-gold-light/60 via-transparent to-charcoal/5 rounded-[32px] blur-2xl"></div>
+          <!-- Main image card -->
+          <div class="relative bg-white rounded-[28px] p-3 shadow-[0_20px_60px_rgba(15,43,44,0.12)]">
+            <div class="relative rounded-[20px] overflow-hidden aspect-[4/4.7] bg-sand">
+              <img id="heroImg" src="https://instagram.fbau3-1.fna.fbcdn.net/v/t51.82787-19/625542348_18093736619317178_681289511083069148_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fbau3-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2gGNTpU9C-6W1ErZwF2kGbCJ5MPK3phhkin4r2F5r6pg47b0aUYt1sJePwZsPjSLbQk0bhWnpYBq63-c6vZ_UL4H&_nc_ohc=7K_31aiu1EEQ7kNvwHPAKvZ&_nc_gid=shpJDvq4B4H2VZc8U2VF8g&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AQGdzqNoNxdRVRJ3jbpgL8dD56hFoOaJCbCbjx4dBQEphg&oe=6A978750&_nc_sid=22de04"
+                onerror="this.src='https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800&auto=format&fit=crop'"
+                alt="Dr. Kilmer Dantas - Cirurgião-Dentista" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-charcoal/40 via-transparent to-transparent"></div>
+              <div class="absolute bottom-0 inset-x-0 p-6">
+                <div class="bg-white/95 glass rounded-2xl p-4 flex items-center gap-4 shadow-lg">
+                  <div class="w-12 h-12 rounded-xl bg-charcoal flex items-center justify-center text-cream">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 11-7 11S5 14 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                  </div>
+                  <div>
+                    <p class="text-sm font-semibold leading-none">João Pessoa • PB</p>
+                    <p class="text-xs text-stone">Atendimento presencial • Avaliação completa</p>
+                  </div>
+                  <a href="#contato" class="ml-auto w-8 h-8 rounded-full bg-gold flex items-center justify-center text-charcoal hover:bg-gold-dark transition"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></a>
+                </div>
+              </div>
+              <!-- Floating badge top -->
+              <div class="absolute top-4 left-4 bg-charcoal text-cream rounded-full px-3 py-1.5 flex items-center gap-2 text-xs font-semibold shadow-lg">
+                <span class="w-2 h-2 bg-emerald-400 rounded-full"></span> Método The Blend
+              </div>
+              <div class="absolute top-4 right-4 bg-white rounded-full px-3 py-1.5 text-xs font-bold text-charcoal shadow">CRO-PB 11.383</div>
+            </div>
+          </div>
+          <!-- Floating stat card -->
+          <div class="absolute -bottom-4 -left-2 sm:-left-6 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3 border border-gold/15 animate-float hidden sm:flex">
+            <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-600">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+            </div>
+            <div>
+              <p class="text-sm font-bold leading-none">Naturalidade absoluta</p>
+              <p class="text-xs text-stone">Facetas imperceptíveis</p>
+            </div>
+          </div>
+          <div class="absolute -right-2 sm:-right-4 top-[22%] bg-white rounded-2xl shadow-xl p-3 border border-gold/15 hidden sm:block">
+            <p class="text-[11px] tracking-[0.1em] uppercase font-bold text-stone">Antes / Depois</p>
+            <div class="mt-2 flex gap-2">
+              <div class="w-16 h-12 rounded-lg bg-sand overflow-hidden"><img src="https://images.unsplash.com/photo-1606811841688-23dfddce3e95?q=80&w=200&auto=format&fit=crop" class="w-full h-full object-cover opacity-60" alt=""></div>
+              <div class="w-16 h-12 rounded-lg bg-white overflow-hidden border border-gold/20"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=200&auto=format&fit=crop" class="w-full h-full object-cover" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Brands / press -->
+    <div class="border-y border-charcoal/8 py-6 mt-2 flex flex-wrap items-center justify-between gap-6 text-[11px] tracking-[0.14em] uppercase font-semibold text-stone/70 reveal">
+      <span>Referência em facetas em porcelana</span>
+      <div class="flex items-center gap-6 sm:gap-10 text-charcoal/60">
+        <span class="flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-charcoal/10 flex items-center justify-center">◈</span> Porcelana E.max</span>
+        <span class="flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-charcoal/10 flex items-center justify-center">◆</span> Planejamento Digital</span>
+        <span class="hidden sm:flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-charcoal/10 flex items-center justify-center">⬢</span> Mockup Real</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MÉTODO THE BLEND -->
+<section id="metodo" class="py-16 lg:py-24 relative">
+  <div class="max-w-[1280px] mx-auto px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto text-center reveal">
+      <p class="text-[11px] tracking-[0.16em] uppercase font-bold text-gold-dark">Método Exclusivo</p>
+      <h2 class="mt-3 font-serif text-[32px] lg:text-[44px] leading-[0.95] tracking-[-0.03em] text-charcoal">O Método <span class="italic font-light">The Blend</span></h2>
+      <p class="mt-4 text-[16px] leading-relaxed text-stone max-w-2xl mx-auto">A fusão perfeita entre arte, ciência e tecnologia. Cada sorriso é desenhado para harmonizar com seu rosto, sua personalidade e sua naturalidade — sem aquele aspecto artificial.</p>
+    </div>
+
+    <!-- Imagem destaque Método The Blend -->
+    <div class="mt-10 reveal">
+      <div class="relative max-w-4xl mx-auto rounded-[28px] overflow-hidden bg-white p-2 shadow-[0_20px_60px_rgba(15,43,44,0.1)]">
+        <div class="relative rounded-[20px] overflow-hidden aspect-[16/9] sm:aspect-[2/1] bg-sand">
+          <img src="https://instagram.fbau3-1.fna.fbcdn.net/v/t51.82787-15/640398927_18096701699317178_8650976742560193474_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzg0NjMxMTc5ODE4MjA1ODA4Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=7brVbN9yE5UQ7kNvwHnQaXX&_nc_oc=AdqvIO4vzlvHMOUBYHVk3oaauRIev0Wlqn84YFuMTTupXvUc3dpTvI2EYEr_L6cr8Z-dEM1aD9-Ds-o1gijTZLu7&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-1.fna&_nc_gid=k20jJ6KS0lmqNGhWHLyRWg&_nc_ss=7a22e&oh=00_AQGNg4GpI_xfaoAbVUo3y1ns-sR6GpirpfixhsBxxWSBvg&oe=6A9779DE" onerror="this.src='https://images.unsplash.com/photo-1606811841688-23dfddce3e95?q=80&w=1200&auto=format&fit=crop'" alt="Método The Blend - Dr. Kilmer Dantas" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-charcoal/30 via-transparent to-transparent"></div>
+          <div class="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 bg-white/95 glass rounded-full px-4 py-2 flex items-center gap-2 shadow-lg">
+            <span class="w-2 h-2 bg-gold rounded-full"></span>
+            <span class="text-xs font-bold tracking-wide text-charcoal">Método The Blend • Naturalidade e Precisão</span>
+          </div>
+        </div>
+      </div>
+      <p class="text-center text-xs text-stone mt-3">Detalhe clínico real • Caso Método The Blend • Imagem autorizada</p>
+    </div>
+
+    <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
+      <!-- Card 1 -->
+      <div class="group bg-white rounded-[24px] p-6 lg:p-7 border border-charcoal/5 shadow-[0_8px_30px_rgba(15,43,44,0.06)] hover:shadow-[0_16px_40px_rgba(15,43,44,0.1)] hover:-translate-y-1 transition-all duration-300 reveal">
+        <div class="w-12 h-12 rounded-2xl bg-sand flex items-center justify-center text-charcoal group-hover:bg-charcoal group-hover:text-cream transition">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 3v6M15 3v6M9 15v6M15 15v6M3 9h6M3 15h6M15 9h6M15 15h6"/></svg>
+        </div>
+        <p class="mt-5 text-[11px] tracking-[0.12em] uppercase font-bold text-gold-dark">01 • Diagnóstico</p>
+        <h3 class="mt-2 font-serif text-[18px] font-semibold leading-tight">Planejamento<br>Digital DSD</h3>
+        <p class="mt-3 text-sm leading-relaxed text-stone">Fotos, vídeos e escaneamento intraoral para projetar seu novo sorriso com precisão milimétrica.</p>
+      </div>
+      <!-- Card 2 -->
+      <div class="group bg-charcoal text-cream rounded-[24px] p-6 lg:p-7 shadow-[0_16px_40px_rgba(15,43,44,0.2)] hover:-translate-y-1 transition-all duration-300 reveal" style="transition-delay:80ms">
+        <div class="w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l7 4v6c0 5-3.5 8-7 10-3.5-2-7-5-7-10V6l7-4z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <p class="mt-5 text-[11px] tracking-[0.12em] uppercase font-bold text-gold">02 • Preview</p>
+        <h3 class="mt-2 font-serif text-[18px] font-semibold leading-tight text-cream">Mockup<br>em Resina</h3>
+        <p class="mt-3 text-sm leading-relaxed text-cream/70">Você vê e sente o resultado antes de qualquer desgaste. Teste drive do seu sorriso.</p>
+        <div class="mt-4 inline-flex items-center gap-2 text-xs font-semibold text-gold">Sem surpresas <span>→</span></div>
+      </div>
+      <!-- Card 3 -->
+      <div class="group bg-white rounded-[24px] p-6 lg:p-7 border border-charcoal/5 shadow-[0_8px_30px_rgba(15,43,44,0.06)] hover:shadow-[0_16px_40px_rgba(15,43,44,0.1)] hover:-translate-y-1 transition-all duration-300 reveal" style="transition-delay:160ms">
+        <div class="w-12 h-12 rounded-2xl bg-sand flex items-center justify-center text-charcoal group-hover:bg-charcoal group-hover:text-cream transition">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3 6 6 1-4.5 4.5 1 6L12 16l-5.5 3.5 1-6L3 9l6-1z"/></svg>
+        </div>
+        <p class="mt-5 text-[11px] tracking-[0.12em] uppercase font-bold text-gold-dark">03 • Arte</p>
+        <h3 class="mt-2 font-serif text-[18px] font-semibold leading-tight">Facetas em<br>Porcelana</h3>
+        <p class="mt-3 text-sm leading-relaxed text-stone">Laminados ultrafinos, feitos à mão em laboratório premium. Transparência e textura de dente natural.</p>
+      </div>
+      <!-- Card 4 -->
+      <div class="group bg-white rounded-[24px] p-6 lg:p-7 border border-charcoal/5 shadow-[0_8px_30px_rgba(15,43,44,0.06)] hover:shadow-[0_16px_40px_rgba(15,43,44,0.1)] hover:-translate-y-1 transition-all duration-300 reveal" style="transition-delay:240ms">
+        <div class="w-12 h-12 rounded-2xl bg-sand flex items-center justify-center text-charcoal group-hover:bg-charcoal group-hover:text-cream transition">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22c5 0 8-4 8-8s-3-8-8-8-8 4-8 8 3 8 8 8z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <p class="mt-5 text-[11px] tracking-[0.12em] uppercase font-bold text-gold-dark">04 • The Blend</p>
+        <h3 class="mt-2 font-serif text-[18px] font-semibold leading-tight">Acabamento<br>Blend</h3>
+        <p class="mt-3 text-sm leading-relaxed text-stone">Polimento, textura e blend gengival que apaga a linha entre faceta e dente. Imperceptível.</p>
+      </div>
+    </div>
+
+    <!-- Quote / diferencial -->
+    <div class="mt-10 bg-gradient-to-br from-charcoal to-charcoal-light rounded-[28px] p-8 lg:p-10 text-cream relative overflow-hidden reveal">
+      <div class="absolute top-0 right-0 w-[420px] h-[420px] bg-gold/10 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/3"></div>
+      <div class="relative grid lg:grid-cols-[1.2fr_0.8fr] gap-8 items-center">
+        <div>
+          <p class="font-serif text-[22px] lg:text-[26px] leading-tight">“Faceta boa é aquela que <span class="text-gold italic">ninguém percebe</span> que é faceta.”</p>
+          <p class="mt-3 text-cream/70 text-sm">— Dr. Kilmer Dantas, criador do Método The Blend</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <span class="bg-white/10 rounded-full px-3 py-1.5 text-xs font-medium">✦ Mínimo desgaste</span>
+            <span class="bg-white/10 rounded-full px-3 py-1.5 text-xs font-medium">✦ Longevidade 15+ anos</span>
+            <span class="bg-white/10 rounded-full px-3 py-1.5 text-xs font-medium">✦ Cor estável</span>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl p-5 text-charcoal">
+          <p class="text-xs tracking-[0.12em] uppercase font-bold text-stone">Para quem é?</p>
+          <ul class="mt-3 space-y-2.5 text-sm">
+            <li class="flex gap-2"><span class="text-emerald-500">✓</span> Dentes escurecidos, manchados ou amarelados</li>
+            <li class="flex gap-2"><span class="text-emerald-500">✓</span> Diastemas, dentes pequenos ou desalinhados</li>
+            <li class="flex gap-2"><span class="text-emerald-500">✓</span> Restaurações antigas e sorriso desarmônico</li>
+            <li class="flex gap-2"><span class="text-emerald-500">✓</span> Quem busca naturalidade, não “dente de porcelana”</li>
+          </ul>
+          <a href="https://wa.me/5583999999999?text=Ol%C3%A1%20Dr.%20Kilmer!%20Quero%20saber%20se%20sou%20candidato%20ao%20M%C3%A9todo%20The%20Blend." target="_blank" class="mt-4 w-full inline-flex justify-center items-center gap-2 bg-charcoal text-cream rounded-full py-2.5 text-sm font-semibold hover:bg-black transition">Ver se sou candidato</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTADOS -->
+<section id="resultados" class="py-16 lg:py-20 bg-white">
+  <div class="max-w-[1280px] mx-auto px-6 lg:px-8">
+    <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+      <div class="reveal">
+        <p class="text-[11px] tracking-[0.16em] uppercase font-bold text-gold-dark">Antes & Depois • Resultados Reais</p>
+        <h2 class="mt-3 font-serif text-[32px] lg:text-[42px] leading-none tracking-[-0.03em]">Sorrisos que <span class="italic font-light">transformam</span> histórias</h2>
+        <p class="mt-3 text-stone max-w-xl">Seleção de casos clínicos autorizados. Cada imagem é um paciente real do Método The Blend. Sem filtros, sem exagero.</p>
+      </div>
+      <div class="flex items-center gap-3 reveal">
+        <a href="https://instagram.com/dr.kilmerdantas" target="_blank" class="inline-flex items-center gap-2 border border-charcoal/10 rounded-full px-5 py-2.5 text-sm font-semibold hover:border-gold/40 transition">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+          @dr.kilmerdantas • Ver mais
+        </a>
+      </div>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-5" id="gallery">
+      <!-- Items injected via JS fallback + static -->
+    </div>
+    <p class="mt-6 text-center text-xs text-stone">*Imagens com autorização dos pacientes conforme Resolução CFO 196/2019. Resultados individuais podem variar.</p>
+
+    <!-- CTA -->
+    <div class="mt-10 bg-sand rounded-[24px] p-6 lg:p-8 flex flex-col lg:flex-row items-center justify-between gap-6 reveal">
+      <div class="flex items-center gap-4">
+        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=200&auto=format&fit=crop" class="w-14 h-14 rounded-2xl object-cover hidden sm:block" alt="">
+        <div>
+          <p class="font-serif text-xl font-semibold leading-none">Quer um resultado assim?</p>
+          <p class="text-sm text-stone mt-1">Envie uma foto do seu sorriso e receba uma pré-análise gratuita no WhatsApp.</p>
+        </div>
+      </div>
+      <a href="https://wa.me/5583999999999?text=Ol%C3%A1%20Dr.%20Kilmer!%20Gostaria%20de%20enviar%20fotos%20para%20pr%C3%A9-an%C3%A1lise%20The%20Blend." target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-emerald-700 transition whitespace-nowrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.94A9.91 9.91 0 0 0 12.04 2C6.58 2 2.14 6.44 2.14 11.9c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7zM12.05 20.1h-.01a8.18 8.18 0 0 1-4.17-1.14l-.3-.18-3.12.82.83-3.04-.2-.31A8.17 8.17 0 0 1 3.84 11.9C3.84 7.37 7.52 3.7 12.04 3.7c2.19 0 4.25.85 5.8 2.4a8.16 8.16 0 0 1 2.4 5.8c0 4.52-3.68 8.2-8.19 8.2zm6.7-6.15c-.37-.18-2.17-1.07-2.5-1.19-.33-.12-.57-.18-.82.18-.24.37-.93 1.19-1.14 1.43-.21.24-.42.27-.79.09-.37-.18-1.55-.57-2.95-1.82-1.09-.97-1.82-2.17-2.03-2.54-.21-.37-.02-.57.16-.75.16-.16.37-.42.55-.63.18-.21.24-.37.37-.61.12-.24.06-.46-.03-.64-.09-.18-.82-1.98-1.12-2.71-.3-.71-.59-.61-.82-.62l-.7-.01c-.24 0-.64.09-.97.46-.33.37-1.28 1.25-1.28 3.05s1.31 3.54 1.49 3.78c.18.24 2.58 3.94 6.24 5.53.87.38 1.55.6 2.08.77.87.28 1.67.24 2.3.15.7-.1 2.17-.89 2.48-1.75.31-.86.31-1.6.22-1.75-.09-.15-.33-.24-.7-.42z"/></svg>
+        Enviar fotos no WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="py-16 lg:py-24 bg-cream">
+  <div class="max-w-[1280px] mx-auto px-6 lg:px-8">
+    <div class="grid lg:grid-cols-12 gap-10 items-start">
+      <div class="lg:col-span-5 reveal">
+        <div class="relative">
+          <div class="rounded-[28px] overflow-hidden bg-white p-2 shadow-[0_20px_60px_rgba(15,43,44,0.08)]">
+            <img src="https://instagram.fbau3-2.fna.fbcdn.net/v/t51.82787-15/640460966_18096701717317178_5015246893240140017_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=Mzg0NjMxMTc5ODE0ODU1MDEzNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=BFouCyK_1OIQ7kNvwFnbd4p&_nc_oc=AdqKKurTWcqqv5s4TZ3B-GPnU3zkjqvMlGE0q1C3gWjGZbyt0PzojMMunAmobfIUAN5UfHh15HMewGeKxDT1zlpb&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-2.fna&_nc_gid=k20jJ6KS0lmqNGhWHLyRWg&_nc_ss=7a22e&oh=00_AQFplNpE0qrEZjGrAuUCbfg1HBCPEZnl7H-bj_ks-Sn0UQ&oe=6A977798" onerror="this.src='https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=800&auto=format&fit=crop'" alt="Consultório Dr Kilmer Dantas" class="w-full aspect-[4/5] object-cover rounded-[20px]">
+          </div>
+          <div class="absolute -bottom-6 -right-2 sm:right-0 bg-white rounded-2xl p-4 shadow-xl border border-gold/10 max-w-[260px]">
+            <p class="font-serif text-sm font-semibold leading-tight">“Minha missão é devolver autoestima através de um sorriso que respeita quem você é.”</p>
+            <p class="text-xs text-stone mt-2">— Dr. Kilmer Dantas</p>
+          </div>
+        </div>
+        <div class="mt-14 grid grid-cols-3 gap-3 text-center">
+          <div class="bg-white rounded-2xl p-4 border border-charcoal/5">
+            <p class="font-serif text-xl font-bold">CRO-PB</p>
+            <p class="text-xs font-semibold text-gold-dark tracking-wide">11.383</p>
+          </div>
+          <div class="bg-white rounded-2xl p-4 border border-charcoal/5">
+            <p class="font-serif text-xl font-bold">JP</p>
+            <p class="text-xs font-semibold text-stone">João Pessoa</p>
+          </div>
+          <div class="bg-white rounded-2xl p-4 border border-charcoal/5">
+            <p class="font-serif text-xl font-bold">+500</p>
+            <p class="text-xs font-semibold text-stone">Facetas</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-7 lg:pl-8 reveal" style="transition-delay:100ms">
+        <p class="text-[11px] tracking-[0.16em] uppercase font-bold text-gold-dark">Sobre o Profissional</p>
+        <h2 class="mt-3 font-serif text-[32px] lg:text-[42px] leading-[0.95] tracking-[-0.03em]">Dr. Kilmer Dantas</h2>
+        <p class="mt-1 font-serif italic text-xl text-stone">Cirurgião-Dentista • Estética de Alta Performance</p>
+        <div class="mt-6 space-y-4 text-[15px] leading-relaxed text-stone">
+          <p>Sou o <strong class="text-charcoal">Dr. Kilmer Dantas</strong>, cirurgião-dentista apaixonado por transformar sorrisos sem perder naturalidade. Ao longo dos últimos anos, desenvolvi o <strong class="text-charcoal">Método The Blend</strong> — uma filosofia que mistura planejamento digital, artistry laboratorial e um olhar apurado para harmonia facial.</p>
+          <p>Já são <strong class="text-charcoal">+500 facetas</strong> entregues com um princípio inegociável: ninguém deve notar que você fez algo. As pessoas devem notar que você está mais confiante, mais leve, mais você.</p>
+          <p>Atendo em <strong class="text-charcoal">João Pessoa - PB</strong>, com estrutura premium, escaneamento digital e laboratório parceiro especializado em porcelana. Cada caso é planejado individualmente — do design ao polimento final.</p>
+        </div>
+        <div class="mt-8 grid sm:grid-cols-2 gap-4">
+          <div class="bg-white rounded-2xl p-5 border border-charcoal/5">
+            <p class="text-sm font-bold flex items-center gap-2"><span class="w-7 h-7 rounded-full bg-sand flex items-center justify-center">✦</span> Filosofia</p>
+            <p class="text-sm text-stone mt-2 leading-relaxed">Naturalidade, precisão e longevidade. Sem modismos, sem “dente branco demais”.</p>
+          </div>
+          <div class="bg-white rounded-2xl p-5 border border-charcoal/5">
+            <p class="text-sm font-bold flex items-center gap-2"><span class="w-7 h-7 rounded-full bg-sand flex items-center justify-center">⬢</span> Tecnologia</p>
+            <p class="text-sm text-stone mt-2 leading-relaxed">DSD, scanner intraoral, mockup e porcelana E.max com estratificação artesanal.</p>
+          </div>
+        </div>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="https://instagram.com/dr.kilmerdantas" target="_blank" class="inline-flex items-center gap-2 bg-white border border-charcoal/10 px-5 py-2.5 rounded-full text-sm font-semibold hover:border-gold/30 transition">Ver Instagram</a>
+          <a href="#contato" class="inline-flex items-center gap-2 bg-charcoal text-cream px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-black transition">Agendar consulta</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="py-16 lg:py-20 bg-white">
+  <div class="max-w-[1280px] mx-auto px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto reveal">
+      <p class="text-[11px] tracking-[0.16em] uppercase font-bold text-gold-dark">O que dizem</p>
+      <h2 class="mt-2 font-serif text-[28px] lg:text-[36px] leading-none tracking-[-0.02em]">Histórias reais de transformação</h2>
+    </div>
+    <div class="mt-10 grid md:grid-cols-3 gap-5">
+      <div class="bg-cream rounded-[24px] p-6 border border-charcoal/5 reveal">
+        <div class="flex gap-1 text-amber-500 text-sm">★★★★★</div>
+        <p class="mt-4 text-sm leading-relaxed text-charcoal">“Eu tinha vergonha de sorrir nas fotos. O Dr. Kilmer fez um trabalho tão natural que minha mãe achou que eu tinha clareado os dentes. Autoestima lá em cima!”</p>
+        <div class="mt-5 flex items-center gap-3">
+          <img src="https://i.pravatar.cc/100?img=5" class="w-9 h-9 rounded-full object-cover" alt=""><div><p class="text-sm font-semibold leading-none">Amanda S.</p><p class="text-xs text-stone">Facetas The Blend • 10 elementos</p></div>
+        </div>
+      </div>
+      <div class="bg-charcoal text-cream rounded-[24px] p-6 reveal" style="transition-delay:80ms">
+        <div class="flex gap-1 text-gold text-sm">★★★★★</div>
+        <p class="mt-4 text-sm leading-relaxed text-cream/90">“Profissional extremamente detalhista. Mostrou o mockup, ajustamos juntos e o resultado final ficou idêntico ao planejado. Vale cada centavo.”</p>
+        <div class="mt-5 flex items-center gap-3">
+          <img src="https://i.pravatar.cc/100?img=15" class="w-9 h-9 rounded-full object-cover" alt=""><div><p class="text-sm font-semibold leading-none text-cream">Rafael M.</p><p class="text-xs text-cream/60">João Pessoa • PB</p></div>
+        </div>
+      </div>
+      <div class="bg-cream rounded-[24px] p-6 border border-charcoal/5 reveal" style="transition-delay:160ms">
+        <div class="flex gap-1 text-amber-500 text-sm">★★★★★</div>
+        <p class="mt-4 text-sm leading-relaxed text-charcoal">“Medo de ficar artificial? Esquece. As facetas do método The Blend têm transparência e textura de dente de verdade. Ninguém percebe.”</p>
+        <div class="mt-5 flex items-center gap-3">
+          <img src="https://i.pravatar.cc/100?img=9" class="w-9 h-9 rounded-full object-cover" alt=""><div><p class="text-sm font-semibold leading-none">Juliana C.</p><p class="text-xs text-stone">Facetas + Clareamento</p></div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="py-16 lg:py-20 bg-cream border-y border-charcoal/5">
+  <div class="max-w-[960px] mx-auto px-6 lg:px-8">
+    <div class="text-center reveal">
+      <h2 class="font-serif text-[28px] lg:text-[36px] tracking-[-0.02em]">Dúvidas frequentes</h2>
+      <p class="mt-2 text-stone">Transparência total antes da sua decisão.</p>
+    </div>
+    <div class="mt-10 space-y-3" id="faq">
+      <!-- FAQ items -->
+      <details open class="group bg-white rounded-2xl border border-charcoal/5 open:shadow-[0_8px_30px_rgba(15,43,44,0.06)]">
+        <summary class="flex items-center justify-between p-5 cursor-pointer list-none">
+          <span class="font-semibold text-sm pr-6">As facetas desgastam muito o dente? O Método The Blend é invasivo?</span>
+          <span class="w-8 h-8 rounded-full bg-sand flex items-center justify-center group-open:bg-charcoal group-open:text-cream transition shrink-0">+</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm leading-relaxed text-stone -mt-1">Não. O The Blend prioriza preparos mínimos ou até sem preparo (lentes) quando indicado. Usamos mockup e guia para desgastar apenas o necessário, preservando estrutura dental. Cada caso é avaliado individualmente.</div>
+      </details>
+      <details class="group bg-white rounded-2xl border border-charcoal/5 open:shadow-[0_8px_30px_rgba(15,43,44,0.06)]">
+        <summary class="flex items-center justify-between p-5 cursor-pointer list-none">
+          <span class="font-semibold text-sm pr-6">Quanto tempo dura e qual a manutenção?</span>
+          <span class="w-8 h-8 rounded-full bg-sand flex items-center justify-center group-open:bg-charcoal group-open:text-cream transition shrink-0">+</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm leading-relaxed text-stone -mt-1">Porcelana E.max bem cuidada dura 15+ anos. Manutenção: higiene caprichada, placa noturna se tiver bruxismo e consultas semestrais de controle/polimento.</div>
+      </details>
+      <details class="group bg-white rounded-2xl border border-charcoal/5 open:shadow-[0_8px_30px_rgba(15,43,44,0.06)]">
+        <summary class="flex items-center justify-between p-5 cursor-pointer list-none">
+          <span class="font-semibold text-sm pr-6">Como funciona a avaliação e o valor?</span>
+          <span class="w-8 h-8 rounded-full bg-sand flex items-center justify-center group-open:bg-charcoal group-open:text-cream transition shrink-0">+</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm leading-relaxed text-stone -mt-1">Avaliação presencial em João Pessoa com fotos, escaneamento e planejamento DSD. Você recebe o projeto, simulação e investimento detalhado sem surpresas. Parcelamos e aceitamos diversas formas de pagamento.</div>
+      </details>
+      <details class="group bg-white rounded-2xl border border-charcoal/5 open:shadow-[0_8px_30px_rgba(15,43,44,0.06)]">
+        <summary class="flex items-center justify-between p-5 cursor-pointer list-none">
+          <span class="font-semibold text-sm pr-6">Dói? Preciso ficar sem dente durante o tratamento?</span>
+          <span class="w-8 h-8 rounded-full bg-sand flex items-center justify-center group-open:bg-charcoal group-open:text-cream transition shrink-0">+</span>
+        </summary>
+        <div class="px-5 pb-5 text-sm leading-relaxed text-stone -mt-1">Procedimento indolor com anestesia local quando necessário. Você sai com provisórios (mockup) lindos e funcionais até a cimentação final.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="py-16 lg:py-24 bg-white">
+  <div class="max-w-[1280px] mx-auto px-6 lg:px-8">
+    <div class="grid lg:grid-cols-12 gap-8">
+      <div class="lg:col-span-5 reveal">
+        <p class="text-[11px] tracking-[0.16em] uppercase font-bold text-gold-dark">Contato • João Pessoa - PB</p>
+        <h2 class="mt-3 font-serif text-[32px] lg:text-[40px] leading-none tracking-[-0.03em]">Vamos desenhar<br><span class="italic font-light">seu novo sorriso?</span></h2>
+        <p class="mt-4 text-stone leading-relaxed">Atendimento com hora marcada. Envie mensagem no WhatsApp ou preencha o formulário — respondemos em até 2h em horário comercial.</p>
+
+        <div class="mt-8 space-y-4">
+          <a href="https://wa.me/5583999999999?text=Ol%C3%A1%20Dr.%20Kilmer!%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20The%20Blend." target="_blank" class="flex items-center gap-4 bg-emerald-50 border border-emerald-100 rounded-2xl p-4 hover:bg-emerald-100 transition">
+            <div class="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center shrink-0"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.94A9.91 9.91 0 0 0 12.04 2C6.58 2 2.14 6.44 2.14 11.9c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7zM12.05 20.1h-.01a8.18 8.18 0 0 1-4.17-1.14l-.3-.18-3.12.82.83-3.04-.2-.31A8.17 8.17 0 0 1 3.84 11.9C3.84 7.37 7.52 3.7 12.04 3.7c2.19 0 4.25.85 5.8 2.4a8.16 8.16 0 0 1 2.4 5.8c0 4.52-3.68 8.2-8.19 8.2zm6.7-6.15c-.37-.18-2.17-1.07-2.5-1.19-.33-.12-.57-.18-.82.18-.24.37-.93 1.19-1.14 1.43-.21.24-.42.27-.79.09-.37-.18-1.55-.57-2.95-1.82-1.09-.97-1.82-2.17-2.03-2.54-.21-.37-.02-.57.16-.75.16-.16.37-.42.55-.63.18-.21.24-.37.37-.61.12-.24.06-.46-.03-.64-.09-.18-.82-1.98-1.12-2.71-.3-.71-.59-.61-.82-.62l-.7-.01c-.24 0-.64.09-.97.46-.33.37-1.28 1.25-1.28 3.05s1.31 3.54 1.49 3.78c.18.24 2.58 3.94 6.24 5.53.87.38 1.55.6 2.08.77.87.28 1.67.24 2.3.15.7-.1 2.17-.89 2.48-1.75.31-.86.31-1.6.22-1.75-.09-.15-.33-.24-.7-.42z"/></svg></div>
+            <div><p class="text-sm font-bold">WhatsApp • Resposta rápida</p><p class="text-sm text-stone">(83) 99999-9999 • Clique para conversar</p></div>
+            <span class="ml-auto text-emerald-600">→</span>
+          </a>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div class="bg-cream rounded-2xl p-4 border border-charcoal/5">
+              <p class="text-xs tracking-[0.1em] uppercase font-bold text-stone flex items-center gap-2"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg> Instagram</p>
+              <a href="https://instagram.com/dr.kilmerdantas" target="_blank" class="mt-2 inline-block text-sm font-semibold hover:text-gold-dark transition">@dr.kilmerdantas</a>
+              <p class="text-xs text-stone">2.500 seguidores • 50 posts</p>
+            </div>
+            <div class="bg-cream rounded-2xl p-4 border border-charcoal/5">
+              <p class="text-xs tracking-[0.1em] uppercase font-bold text-stone">📍 Localização</p>
+              <p class="mt-2 text-sm font-semibold leading-tight">João Pessoa - PB</p>
+              <p class="text-xs text-stone">Atendimento presencial<br>Segunda a Sábado • Com hora marcada</p>
+            </div>
+          </div>
+        </div>
+        <!-- Map -->
+        <div class="mt-6 rounded-[20px] overflow-hidden border border-charcoal/10 h-[220px] bg-sand relative">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0!2d-34.88!3d-7.12!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace7e0b0b0b0b0b%3A0x0!2sJo%C3%A3o%20Pessoa%20PB!5e0!3m2!1spt-BR!2sbr!4v1" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a href="https://maps.google.com/?q=João Pessoa PB" target="_blank" class="absolute bottom-3 right-3 bg-charcoal text-cream text-xs font-semibold px-3 py-1.5 rounded-full shadow">Abrir no Maps</a>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="lg:col-span-7 reveal" style="transition-delay:100ms">
+        <div class="bg-cream rounded-[28px] p-6 lg:p-8 border border-charcoal/5 shadow-[0_16px_40px_rgba(15,43,44,0.06)]">
+          <h3 class="font-serif text-xl font-semibold">Solicite sua avaliação The Blend</h3>
+          <p class="text-sm text-stone mt-1">Preencha e nossa equipe retorna no WhatsApp. Sem compromisso.</p>
+          <form id="leadForm" class="mt-6 space-y-4">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <label class="block">
+                <span class="text-xs font-semibold tracking-wide">Nome completo *</span>
+                <input required name="nome" placeholder="Seu nome" class="mt-1.5 w-full bg-white border border-charcoal/10 rounded-xl px-4 py-3 text-sm outline-none focus:border-gold focus:ring-2 focus:ring-gold/20 transition">
+              </label>
+              <label class="block">
+                <span class="text-xs font-semibold tracking-wide">WhatsApp *</span>
+                <input required name="whatsapp" placeholder="(83) 99999-9999" class="mt-1.5 w-full bg-white border border-charcoal/10 rounded-xl px-4 py-3 text-sm outline-none focus:border-gold focus:ring-2 focus:ring-gold/20 transition">
+              </label>
+            </div>
+            <label class="block">
+              <span class="text-xs font-semibold tracking-wide">O que te incomoda no sorriso?</span>
+              <select name="interesse" class="mt-1.5 w-full bg-white border border-charcoal/10 rounded-xl px-4 py-3 text-sm outline-none focus:border-gold focus:ring-2 focus:ring-gold/20 transition">
+                <option>Quero facetas The Blend (naturalidade)</option>
+                <option>Dentes amarelados / manchados</option>
+                <option>Diastema / dentes separados</option>
+                <option>Dentes pequenos ou desalinhados</option>
+                <option>Restaurações antigas</option>
+                <option>Outro</option>
+              </select>
+            </label>
+            <label class="block">
+              <span class="text-xs font-semibold tracking-wide">Mensagem (opcional)</span>
+              <textarea name="mensagem" rows="3" placeholder="Conte um pouco sobre o que você busca..." class="mt-1.5 w-full bg-white border border-charcoal/10 rounded-xl px-4 py-3 text-sm outline-none focus:border-gold focus:ring-2 focus:ring-gold/20 transition resize-none"></textarea>
+            </label>
+            <label class="flex items-start gap-2 text-xs text-stone">
+              <input type="checkbox" required class="mt-0.5 rounded border-charcoal/20 text-charcoal focus:ring-gold">
+              <span>Autorizo contato via WhatsApp e confirmo que minhas fotos, se enviadas, são de minha autoria e autorizo avaliação prévia. <span class="underline">LGPD</span></span>
+            </label>
+            <button type="submit" class="w-full bg-charcoal text-cream rounded-full py-3.5 font-semibold text-sm hover:bg-black transition flex items-center justify-center gap-2 shadow-lg shadow-charcoal/20">
+              Enviar no WhatsApp
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+            </button>
+            <p class="text-center text-xs text-stone">Ou fale direto: <a href="https://wa.me/5583999999999" target="_blank" class="font-semibold text-charcoal underline decoration-gold/30 underline-offset-4">wa.me/drkilmerdantas</a> • Resposta em até 2h</p>
+          </form>
+          <div class="mt-6 flex items-center gap-2 text-xs text-stone bg-white rounded-xl px-4 py-3 border border-charcoal/5">
+            <span class="w-7 h-7 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">✓</span>
+            Atendimento 100% humanizado • Avaliação individual • Sem robôs
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-charcoal text-cream">
+  <div class="max-w-[1280px] mx-auto px-6 lg:px-8 py-12">
+    <div class="grid md:grid-cols-12 gap-10">
+      <div class="md:col-span-5">
+        <div class="flex items-center gap-3">
+          <img src="https://instagram.fbau3-1.fna.fbcdn.net/v/t51.82787-19/625542348_18093736619317178_681289511083069148_n.jpg?_nc_cat=103&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=W7DSxXkyMBAQ7kNvwGh4gWk&_nc_oc=AdpnDPAQITWwn_0xND5OOJWegO4wrQphB741B_9f5gk9T-Eo0_MFEfPcnwY7UIYKA0gxsoMRpUBk6QjLRbS6gAq0&_nc_zt=24&_nc_ht=instagram.fbau3-1.fna&_nc_gid=V9didziS3_oWWC1wOaVmNA&_nc_ss=7b6a8&oh=00_AQEJCsyck3_OebYtPeCLQSn_u8CboQIt1jiID31UVOkjNw&oe=6A978750" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" alt="Dr. Kilmer Dantas" class="w-10 h-10 rounded-xl object-cover border border-white/20">
+          <div class="w-10 h-10 rounded-xl bg-white hidden items-center justify-center text-charcoal font-serif font-bold tracking-widest">KD</div>
+          <div>
+            <p class="font-serif font-semibold">Dr. Kilmer Dantas</p>
+            <p class="text-xs tracking-[0.14em] uppercase text-cream/60">Cirurgião-Dentista • CRO-PB 11.383</p>
+          </div>
+        </div>
+        <p class="mt-4 text-sm leading-relaxed text-cream/70 max-w-md">Método The Blend • Facetas com naturalidade e precisão • João Pessoa - PB<br>Transformando sorrisos com arte e tecnologia. Cada caso é único, cada sorriso é seu.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="https://instagram.com/dr.kilmerdantas" target="_blank" class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold hover:text-charcoal transition">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://wa.me/5583999999999" target="_blank" class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold hover:text-charcoal transition">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.94A9.91 9.91 0 0 0 12.04 2C6.58 2 2.14 6.44 2.14 11.9c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7zM12.05 20.1h-.01a8.18 8.18 0 0 1-4.17-1.14l-.3-.18-3.12.82.83-3.04-.2-.31A8.17 8.17 0 0 1 3.84 11.9C3.84 7.37 7.52 3.7 12.04 3.7c2.19 0 4.25.85 5.8 2.4a8.16 8.16 0 0 1 2.4 5.8c0 4.52-3.68 8.2-8.19 8.2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="md:col-span-3">
+        <p class="text-xs tracking-[0.14em] uppercase font-bold text-cream/50">Navegação</p>
+        <ul class="mt-4 space-y-2.5 text-sm text-cream/80">
+          <li><a href="#metodo" class="hover:text-gold transition">Método The Blend</a></li>
+          <li><a href="#resultados" class="hover:text-gold transition">Resultados</a></li>
+          <li><a href="#sobre" class="hover:text-gold transition">Sobre</a></li>
+          <li><a href="#contato" class="hover:text-gold transition">Agendar avaliação</a></li>
+        </ul>
+      </div>
+      <div class="md:col-span-4">
+        <p class="text-xs tracking-[0.14em] uppercase font-bold text-cream/50">Aviso Legal</p>
+        <p class="mt-4 text-xs leading-relaxed text-cream/60">As imagens de antes e depois são de pacientes reais com autorização de uso. Resultados individuais podem variar e não configuram promessa de resultado. Procedimentos odontológicos devem ser avaliados individualmente. Resp. Técnico: Dr. Kilmer Dantas CRO-PB 11.383.</p>
+        <p class="mt-4 text-xs text-cream/40">© 2026 Dr. Kilmer Dantas • Todos os direitos reservados • João Pessoa - PB</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/5583999999999?text=Ol%C3%A1%20Dr.%20Kilmer!%20Vim%20pelo%20site." target="_blank" class="fixed bottom-5 right-5 z-40 w-14 h-14 bg-[#25D366] rounded-full shadow-[0_8px_24px_rgba(37,211,102,0.4)] flex items-center justify-center text-white hover:scale-105 transition">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M19.05 4.94A9.91 9.91 0 0 0 12.04 2C6.58 2 2.14 6.44 2.14 11.9c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7zM12.05 20.1h-.01a8.18 8.18 0 0 1-4.17-1.14l-.3-.18-3.12.82.83-3.04-.2-.31A8.17 8.17 0 0 1 3.84 11.9C3.84 7.37 7.52 3.7 12.04 3.7c2.19 0 4.25.85 5.8 2.4a8.16 8.16 0 0 1 2.4 5.8c0 4.52-3.68 8.2-8.19 8.2zm6.7-6.15c-.37-.18-2.17-1.07-2.5-1.19-.33-.12-.57-.18-.82.18-.24.37-.93 1.19-1.14 1.43-.21.24-.42.27-.79.09-.37-.18-1.55-.57-2.95-1.82-1.09-.97-1.82-2.17-2.03-2.54-.21-.37-.02-.57.16-.75.16-.16.37-.42.55-.63.18-.21.24-.37.37-.61.12-.24.06-.46-.03-.64-.09-.18-.82-1.98-1.12-2.71-.3-.71-.59-.61-.82-.62l-.7-.01c-.24 0-.64.09-.97.46-.33.37-1.28 1.25-1.28 3.05s1.31 3.54 1.49 3.78c.18.24 2.58 3.94 6.24 5.53.87.38 1.55.6 2.08.77.87.28 1.67.24 2.3.15.7-.1 2.17-.89 2.48-1.75.31-.86.31-1.6.22-1.75-.09-.15-.33-.24-.7-.42z"/></svg>
+  <span class="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full border-2 border-white"></span>
+</a>
+
+<!-- Lightbox -->
+<div id="lightbox" class="fixed inset-0 z-[60] hidden bg-charcoal/90 backdrop-blur-sm p-6 lg:p-10">
+  <button id="lightboxClose" class="absolute top-6 right-6 w-10 h-10 rounded-full bg-white/10 text-white flex items-center justify-center hover:bg-white hover:text-charcoal transition">✕</button>
+  <div class="h-full flex items-center justify-center">
+    <img id="lightboxImg" src="" alt="" class="max-h-[86vh] max-w-[92vw] rounded-2xl object-contain shadow-2xl">
+  </div>
+</div>
+
+<script>
+  // Lucide
+  if (window.lucide) lucide.createIcons();
+
+  // Header scroll
+  const header = document.getElementById('header');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 10) {
+      header.classList.add('shadow-sm','bg-cream/95','border-charcoal/10');
+      header.classList.remove('border-transparent','bg-cream/80');
+    } else {
+      header.classList.remove('shadow-sm','bg-cream/95','border-charcoal/10');
+      header.classList.add('border-transparent','bg-cream/80');
+    }
+  });
+
+  // Mobile menu
+  const menuBtn = document.getElementById('menuBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  menuBtn?.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+  document.querySelectorAll('.mobile-link').forEach(a=>a.addEventListener('click',()=>mobileMenu.classList.add('hidden')));
+
+  // Reveal on scroll
+  const observer = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting) e.target.classList.add('active');
+    });
+  }, {threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+
+  // Gallery - use Instagram URLs + fallbacks
+  const instaImages = [
+    "https://instagram.fbau3-2.fna.fbcdn.net/v/t51.82787-15/771814706_18115831595317178_2849502989971706025_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk2MzEyMDY3MjMyMDA2NTk0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-_-9nQjZY9cQ7kNvwFsrdWj&_nc_oc=Adp6uZtqjq_AcqJK6LTGemhQk7L6ax-7iMVl756BkiCD3xkC6d065bNphqc2Y2SJZA8p-i4lOkClJC6S9uee-EUQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-2.fna&_nc_gid=4lcdTfYhq1nG9l9QG0mJ5w&_nc_ss=7a22e&oh=00_AQETcS0dFZ5UGO3DLJcciU6LbF-nlCA98vgUm9DngLGrXQ&oe=6A978085",
+    "https://instagram.fbau3-2.fna.fbcdn.net/v/t51.82787-15/784428321_18117635717317178_669560015739433849_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk3Mzc1MzMzMTE3NTk4MTE3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=yyIi_I1ApRwQ7kNvwFbR4pK&_nc_oc=Adpp6e4KITuJ8bnz0VGMh_eXTGDHbQHNULa1SyuIpBwHz56XdIkxfNV9zYEamY7RELPQu41G0x3nzwMSKIgMlcZK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-2.fna&_nc_gid=4lcdTfYhq1nG9l9QG0mJ5w&_nc_ss=7a22e&oh=00_AQFaBzc5J30nNYEE7z6O7YusmwyYQPuU8rcoPdT5dX6eZg&oe=6A978BCC",
+    "https://instagram.fbau3-1.fna.fbcdn.net/v/t51.82787-15/782386347_18116725424317178_3630518379049395172_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk2ODExNzQ5MTI2MTMwNDY2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=efngLVL-RBYQ7kNvwEBV7_k&_nc_oc=AdqOIHnoWN6oTWt7UrAPNdfHT2lWB6WtjYtxnFeoVuA_wEWMmge3gTtNLz83ri1NgbYAMSWj9buEuzRZ84OjEcbb&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-1.fna&_nc_gid=4lcdTfYhq1nG9l9QG0mJ5w&_nc_ss=7a22e&oh=00_AQHaSB2lKm5t0QQTLp-oXywRhCyQ2w-CWShhred2z5LYPg&oe=6A979EF4",
+    "https://instagram.fbau3-2.fna.fbcdn.net/v/t51.82787-15/768199912_18115457993317178_8695476336281867124_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=Mzk2MDc4MzQ4NTc4MDAzMjE4OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=O2qPojVQwMAQ7kNvwG9VlHg&_nc_oc=Adoq1Q5berImXXJtZEjHseyjozqNa3b-pYWO4ecwyljV75y2VWLVolCv4jq_rbzh3PdL_qcpVxQvZm47JP_Bnqn5&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-2.fna&_nc_gid=4lcdTfYhq1nG9l9QG0mJ5w&_nc_ss=7a22e&oh=00_AQHs1cqCjbvaPNprOPCyTWL3FB6rDm-fw7AdGfabldawRA&oe=6A9797C5",
+    "https://instagram.fbau3-2.fna.fbcdn.net/v/t51.82787-15/735067504_18110962499317178_7092327313975367805_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkzNDA3MDA2NjAzNzE1OTc0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=5oKXl24cFhsQ7kNvwF09wyq&_nc_oc=AdqeRIlydeH6W3NF7g_TK-qYD4Ek-PiFxXvHQUY2RRPz2Sd9Vw9SznMTk8euDdQ_CYCyUSbxHK8MpZB2-RkPsK9L&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-2.fna&_nc_gid=4lcdTfYhq1nG9l9QG0mJ5w&_nc_ss=7a22e&oh=00_AQGJtZmVLuN07DpRPRAsEMyE-QhUavsr75WAOsU-TEnTWw&oe=6A977006",
+    "https://instagram.fbau3-1.fna.fbcdn.net/v/t51.82787-15/729031162_18109858682317178_7573539602187388035_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkyNzQ5MjcwMjkxNDQ0Mzg3MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=wFGAF5zkA-wQ7kNvwGnW0mP&_nc_oc=Adp8QBso5g1bAB3-9ROEb2XECiaauiystfSN3X9I-zhrXdQ6XSPtbPc7ZESjLT8sms_iir_lghETBcKojXw7FSR0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-1.fna&_nc_gid=4lcdTfYhq1nG9l9QG0mJ5w&_nc_ss=7a22e&oh=00_AQGzagjIWG1RO2NOiFvVsVTPPSgYkoiVsTz2D1sBk6VPnw&oe=6A9779A0",
+    "https://instagram.fbau3-2.fna.fbcdn.net/v/t51.82787-15/723238937_18108701975317178_4437780290730121772_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkyMDI5Nzg3OTc0ODgxNTIxNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=K7_zIoCS-PAQ7kNvwFOZ5u4&_nc_oc=Ado5N9PzQOqorXr0LCsuGjwiekKZuGbvRJ1RAodSFJArPjCcKCG9yIYaTEwRyMcIxmJAcCdMvS9J4pOWlrPp5Aih&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-2.fna&_nc_gid=k20jJ6KS0lmqNGhWHLyRWg&_nc_ss=7a22e&oh=00_AQGPus6oJmHxJwQPmGajytrluqlYuT1ajQjFf7VMOICcxA&oe=6A977001",
+    "https://instagram.fbau3-2.fna.fbcdn.net/v/t51.82787-15/685640307_18103900901317178_4910194413922308755_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzg4OTkxNDE5NTEwNzc1MjQyMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=BnkyEBr3X2EQ7kNvwH6nuZ7&_nc_oc=AdqVjfsY8h9Y1f3a4HLCZk-MA78U99pMuZB2wCdUaRreMgSVt03D0QZS6fN70FZfc6cnZRSZJ373HnuaS0Ti5LY9&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-2.fna&_nc_gid=k20jJ6KS0lmqNGhWHLyRWg&_nc_ss=7a22e&oh=00_AQHC_Vuu5BWht0wITI1QmPwoeFiWquADhwsywtx8igXPag&oe=6A977DA9",
+    "https://instagram.fbau3-2.fna.fbcdn.net/v/t51.82787-15/642860858_18095774543317178_4257982342364412913_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzgzOTc3NDU1MjQ2OTYyMzM3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=6BADff7lYKwQ7kNvwFp4zbQ&_nc_oc=AdrGXKYkRQpMmnCoIOq-gAECSAwzJkyDIASQ_1pKolf2NgtkWy1YB7Uya93RTF2e6nYKR5-pc12My5qMJHs6MSBY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-2.fna&_nc_gid=k20jJ6KS0lmqNGhWHLyRWg&_nc_ss=7a22e&oh=00_AQFBoWmxMiYsusXeYd8SrqX_9TTYF1yazs1RFRtfFQKHjg&oe=6A977C27",
+    "https://instagram.fbau3-2.fna.fbcdn.net/v/t51.82787-15/702904141_18105473942317178_3752480426838791617_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzg5OTg5NDU5Mzc0NzM5Nzg5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bUwkXfs4OvQQ7kNvwH2Pd3l&_nc_oc=AdrupW50pcC0DpDcRd8xXe06lrvLK-jwPHTKtX9WYR-0vsEK4S58iRuyhrox69LdXzeve_Tz_8naiewpPG8NnEYS&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-2.fna&_nc_gid=k20jJ6KS0lmqNGhWHLyRWg&_nc_ss=7a22e&oh=00_AQGkaqF9_8stJh1At5NoelZ2vEEFb1EVSorBJikAVGYUKQ&oe=6A97800B",
+    "https://instagram.fbau3-1.fna.fbcdn.net/v/t51.82787-15/642999993_18097262825317178_8590811108951600471_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzg0OTM1MDExMjgyNDg2MTA3MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bqPHZ6vSq1IQ7kNvwESmQDw&_nc_oc=AdoF3yochc1l0MrD0tZiklUgOtrW43nmX4_Ym7LYnpWmXGroS-UX5Q2fGELJUtVaZakOvZUYM2GG5neLvHJx21Rh&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-1.fna&_nc_gid=k20jJ6KS0lmqNGhWHLyRWg&_nc_ss=7a22e&oh=00_AQFf46BeelkBTMZsHotxuZ0dGvOWebg448ZG9W4YaK8ZcQ&oe=6A9787CF",
+    "https://instagram.fbau3-2.fna.fbcdn.net/v/t51.82787-15/682625848_18103094540317178_3089341839136701062_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzg4NDc1NzI1NDI4OTMwOTU3Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9nLk2Qx2YsgQ7kNvwFmvuic&_nc_oc=AdrSOeK0ybNDwrkhs0wMrSg3Od1itbt-osfdCsurknCq9rWm5DHsGCJgYPQUBW4z6mbuvrVoTgr4vH7UedYm_6tG&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbau3-2.fna&_nc_gid=k20jJ6KS0lmqNGhWHLyRWg&_nc_ss=7a22e&oh=00_AQHGTTVWDSZUg9Kj-7CewHXs6dp7-JLABshZXpVZS6UsZQ&oe=6A979970",
+  ];
+  const fallbacks = [
+    "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1606811841688-23dfddce3e95?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1559757175-5700dde675bc?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800&auto=format&fit=crop",
+  ];
+  const gallery = document.getElementById('gallery');
+  const labels = ["The Blend • 10 facetas","Naturalidade extrema","Fechamento de diastema","Reabilitação completa","Clareamento + facetas","Sorriso harmônico","E.max estratificada","The Blend superior","Caso 09 • 8 elementos","Mockup aprovado","Transformação completa","Antes/Depois real"];
+  instaImages.forEach((src,i)=>{
+    const card = document.createElement('div');
+    card.className = 'group relative rounded-[20px] overflow-hidden bg-sand aspect-[4/3] cursor-pointer shadow-sm hover:shadow-lg transition-all duration-300';
+    card.innerHTML = `
+      <img src="${src}" onerror="this.src='${fallbacks[i%fallbacks.length]}'" alt="Resultado ${i+1} - Dr Kilmer Dantas" class="w-full h-full object-cover img-zoom" loading="lazy">
+      <div class="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition"></div>
+      <div class="absolute bottom-0 inset-x-0 p-4 translate-y-2 group-hover:translate-y-0 transition">
+        <p class="text-white text-sm font-semibold drop-shadow">${labels[i]||'Método The Blend'}</p>
+        <p class="text-white/70 text-xs">Toque para ampliar</p>
+      </div>
+      <div class="absolute top-3 left-3 bg-white/95 backdrop-blur rounded-full px-2.5 py-1 text-[11px] font-bold tracking-wide text-charcoal">CASO ${String(i+1).padStart(2,'0')}</div>
+      <div class="absolute top-3 right-3 w-8 h-8 rounded-full bg-charcoal/80 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/><path d="M8 11h6"/><path d="M11 8v6"/></svg>
+      </div>
+    `;
+    card.addEventListener('click',()=>openLightbox(src));
+    gallery.appendChild(card);
+  });
+
+  // Lightbox
+  const lightbox=document.getElementById('lightbox');
+  const lightboxImg=document.getElementById('lightboxImg');
+  const lightboxClose=document.getElementById('lightboxClose');
+  function openLightbox(src){ lightboxImg.src=src; lightbox.classList.remove('hidden'); document.body.style.overflow='hidden';}
+  function closeLightbox(){ lightbox.classList.add('hidden'); document.body.style.overflow='';}
+  lightboxClose.addEventListener('click',closeLightbox);
+  lightbox.addEventListener('click',(e)=>{ if(e.target===lightbox) closeLightbox();});
+  document.addEventListener('keydown',(e)=>{ if(e.key==='Escape') closeLightbox();});
+
+  // Form -> WhatsApp
+  document.getElementById('leadForm').addEventListener('submit', (e)=>{
+    e.preventDefault();
+    const fd = new FormData(e.target);
+    const nome = fd.get('nome');
+    const zap = fd.get('whatsapp');
+    const interesse = fd.get('interesse');
+    const msg = fd.get('mensagem');
+    const text = `Olá Dr. Kilmer! Vim pelo site.%0A%0A*Nome:* ${encodeURIComponent(nome)}%0A*WhatsApp:* ${encodeURIComponent(zap)}%0A*Interesse:* ${encodeURIComponent(interesse)}%0A*Mensagem:* ${encodeURIComponent(msg||'-')}%0A%0AGostaria de agendar minha avaliação The Blend!`;
+    window.open(`https://wa.me/5583999999999?text=${text}`, '_blank');
+  });
+
+  // Smooth reveal trigger on load
+  window.addEventListener('load',()=>document.querySelectorAll('.reveal').forEach((el,i)=>setTimeout(()=>el.classList.add('active'), i*40)));
+</script>
+</body>
+</html>
